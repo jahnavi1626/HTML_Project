@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        div p:first-child{
+            border: 2px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        div p::selection{
+            background-color: salmon;
+        }
+
+        p::first-letter{
+            font-size: 120px;
+        }
+
+        p::before{
+            content: "***"
+        }
+
+        p::after {
+            content: "***"
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam consequatur cum ab nemo vero, voluptas cupiditate dicta harum nobis quam animi error laborum! Libero tempora odio corporis at in.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam consequatur cum ab nemo vero, voluptas cupiditate dicta harum nobis quam animi error laborum! Libero tempora odio corporis at in.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam consequatur cum ab nemo vero, voluptas cupiditate dicta harum nobis quam animi error laborum! Libero tempora odio corporis at in.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam consequatur cum ab nemo vero, voluptas cupiditate dicta harum nobis quam animi error laborum! Libero tempora odio corporis at in.</p>
+    </div>
+</body>
+</html>
